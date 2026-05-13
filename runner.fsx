@@ -55,7 +55,6 @@ let generateFiles (d: Provider.Day.Root) =
             File.WriteAllText(filePath, contents))
 
 let main () =
-
     let args = fsi.CommandLineArgs |> Array.tail
 
     match args with
